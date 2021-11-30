@@ -33,7 +33,7 @@
     <main>
     <section class="default light">
             <div class="section-title">
-                Sobre Nós
+                Sobre a empresa
             </div>
 
             <div class="section-desc">

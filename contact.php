@@ -31,7 +31,52 @@
         </div>
     </header>
     <main>
-    <section class="section-map">
+        <section class="default light">
+            <div class="section-title">
+                Está com dúvidas?
+            </div>
+
+            <div class="section-desc contact">
+                Preencha as informações abaixo
+            </div>
+            
+            <div class="section-contact">
+                <div class="section-contact-form">
+                    <form action="" method="POST">
+                        <input type="text" name="nome" placeholder="Nome" class="contact-item">
+                        <input type="email" name="email" placeholder="E-mail" class="contact-item">
+                        <input type="number" name="fone" placeholder="Telefone" class="contact-item">
+                        <input type="text" name="endereco" placeholder="Bairro - Cidade" class="contact-item">
+                        <textarea name="message" id="" rows="5" placeholder="Do que precisa?"></textarea>
+                    </form>
+                </div>
+            </div>
+            <div class="button-contact">
+                <a class="button" href="">Enviar</a>
+            </div>
+        </section>
+        <section class="section-share">
+            <div class="section-share--legend">
+                <img src="assets/images/share.png" />
+                Visite nossas redes sociais
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon instagram">
+                    <a href="https://www.instagram.com/stark_engenharia_/" target="_blank"><img src="assets/images/insta.png" /></a>
+                </div>
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon whatsapp">
+                    <a href="https://web.whatsapp.com/send?phone=5511969490763"><img src="assets/images/whatsapp.png" target="_blank"/></a>
+                </div>
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon email">
+                    <a href="" target="_blank"><img src="assets/images/facebook.png" /></a>
+                </div>
+            </div>
+        </section>
+        <section class="section-map">
             <div class="section-map--area">
                 <div class="section-map--info">
                     <div class="section-map--info-item">
@@ -58,28 +103,6 @@
 
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="default light">
-            <div class="section-title">
-                Contate-nos
-            </div>
-
-            <div class="section-desc contact">
-                Preencha as informações abaixo
-            </div>
-            
-            <div class="section-contact">
-                <div class="section-contact-form">
-                    <input type="text" name="nome" placeholder="Nome" class="contact-item">
-                    <input type="email" name="email" placeholder="E-mail" class="contact-item">
-                    <input type="number" name="fone" placeholder="Telefone" class="contact-item">
-                    <input type="text" name="endereco" placeholder="Bairro - Cidade" class="contact-item">
-                    <textarea name="message" id="" rows="5" placeholder="Do que precisa?"></textarea>
-                </div>
-            </div>
-            <div class="button-contact">
-                <a class="button" href="">Enviar</a>
             </div>
         </section>
     </main>
