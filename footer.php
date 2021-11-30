@@ -5,18 +5,18 @@
                     <div class="footer-nav-itens">
                         <nav>
                             <ul>
-                                <li><a href="home.html">HOME</a></li>
-                                <li><a href="about.html">SOBRE</a></li>
-                                <li><a href="">SERVIÇOS</a></li>
-                                <li><a href="">NOSSO TIME</a></li>
-                                <li><a href="">CONTATO</a></li>
+                                <li><a href="home.php">HOME</a></li>
+                                <li><a href="about.php">SOBRE</a></li>
+                                <li><a href="services.php">SERVIÇOS</a></li>
+                                <li><a href="our-team.php">NOSSO TIME</a></li>
+                                <li><a href="contact.php">CONTATO</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="about-footer">
                         <a href=""><img class="logo-footer" src="assets/images/logo.png" alt=""></a>
                         <p>A Stark Engenharia é uma empresa nacional
-                            que atua no segmento de impermeabilização, construçoes e reformas
+                            que atua no segmento de impermeabilização, construções e reformas
                             de edificações e serviços especializados de construção.
                         </p>
                         <div class="about-icons">
@@ -36,6 +36,5 @@
                     Copyright © 2018 <a href="">Stark Engenharia</a> All rights reserved</a>
                 </div>
             </div>
-            
-        </div>
+         </div>
     </footer>

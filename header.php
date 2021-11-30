@@ -6,11 +6,11 @@
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="home.html" class="active">HOME</a></li>
-                    <li><a href="about.html">SOBRE</a></li>
-                    <li><a href="services.html">SERVIÇOS</a></li>
-                    <li><a href="our-team.html">NOSSO TIME</a></li>
-                    <li><a href="contact.html">CONTATO</a></li>
+                    <li><a href="home.php" class="active">HOME</a></li>
+                    <li><a href="about.php">SOBRE</a></li>
+                    <li><a href="services.php">SERVIÇOS</a></li>
+                    <li><a href="our-team.php">NOSSO TIME</a></li>
+                    <li><a href="contact.php">CONTATO</a></li>
                 </ul>
             </nav>
         </div>
