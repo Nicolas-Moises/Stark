@@ -97,7 +97,7 @@
                     </div>
                     <div class="section-map--info-item">
                         <img src="assets/images/instagram.png" alt="">
-                        <span>Instagram </span> : www.starkengenharia.com.br
+                        <span>Instagram </span> : https://www.instagram.com/stark_engenharia_/
                     </div>
                     <div>
 

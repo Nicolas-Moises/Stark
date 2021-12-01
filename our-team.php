@@ -36,7 +36,7 @@
                 Nosso Time
             </div>
             <div class="section-desc">
-                Equipe técnica
+                Equipe técnica e especializada
             </div>
             <div class=section-team--box>
                 <div class=section-team--item>

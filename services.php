@@ -12,6 +12,16 @@
     <link rel="shortcut icon" type="imagex/png" href="assets/images/logo.ico">
 </head>
 <body>
+    <div class="modal">
+        <div class="modal_content">
+            <img src="assets/images/service1.jpg" id="modal_img">
+        </div>
+        <span id="bt_close">&times;</span>
+        <div class="controls">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
     <header>
         <div class="header">
             <div class="logo">
@@ -32,217 +42,210 @@
     </header>
     <main>
         <section class="default light">
+            
             <div class="section-title">
                 Com o que trabalhamos?
             </div>
 
             <div class="section-desc">
-                Abaixo estão todos os tipos de serviços em que nossa equipe atua
+                Abaixo estão todos os segmentos de serviço
             </div>
             
-            <div class="section-body">
-                <div class="section-projects">
-                    <div class="section-projects--filters">
-                        <ul>
-                            <li>Tudo</li>
-                            <li class="active-filter">Fotos</li>
-                        </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="card_img">
+                        <img src="assets/images/service1.jpg" class="small_img">
                     </div>
-                    <div class="section-projects--photos">
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Drywall</h5>
-                                    <p>Vedação interna em Drywall (gesso acartonado).</p> 
-                                </div>
-                                <img src="assets/images/service1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Sancas</h5>
-                                    <p>Executamos paredes dos mais diversos tipos de tipologia.</p>
-                                </div>
-                                <img src="assets/images/drywall02.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Forros</h5>
-                                    <p>Forros em Drywall com os mais variados tipos de sancas.</p>
-                                </div>
-                                <img src="assets/images/forro.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Hidráulica</h5>
-                                    <p>Manutenções e instalações hidráulicas</p>
-                                </div>
-                                <img src="assets/images/hid.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Elétrica</h5>
-                                    <p>Manutenções e instalações elétricas</p>
-                                </div>
-                                <img src="assets/images/eletrica.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Construções e Reformas</h5>
-                                    <p>Temos uma equipe capacitada para atender diversos tipos de obras e reformas</p>
-                                </div>
-                                <img src="assets/images/const.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Impermeabilização</h5>
-                                    <p>Impermeabilização de lajes térreo</p>
-                                </div>
-                                <img src="assets/images/terreo.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Jardins e floreiras</h5>
-                                </div>
-                                <img src="assets/images/floreira.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Reservatórios de água</h5>
-                                </div>
-                                <img src="assets/images/caixa-dagua.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Cortinas de concreto em subsolos</h5>
-                                </div>
-                                <img src="assets/images/paredeCortina.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Lajes de cobertura</h5>
-                                </div>
-                                <img src="assets/images/laje-cobertura.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Impermeabilização de piscinas</h5>
-                                </div>
-                                <img src="assets/images/piscina.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Impermeabilização por injeção</h5>
-                                </div>
-                                <img src="assets/images/estacionamento4.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Projetos arquitetônicos</h5>
-                                </div>
-                                <img src="assets/images/projetos.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Manutenções prediais</h5>
-                                </div>
-                                <img src="assets/images/manutencao.jpg" alt="">
-                            </div>
-                        </div>
+                    <div class="card_img">
+                        <img src="assets/images/drywall02.jpeg" class="small_img">
+                     </div>
+                    <div class="card_img">
+                        <img src="assets/images/forro.jpg" class="small_img" height="100%">
                     </div>
-                    <div class="section-projects--tittle">
-                        <h1>Cortinas de concreto em subsolos</h1>
+                    <div class="card_img">
+                        <img src="assets/images/eletrica.jpg" class="small_img">
                     </div>
-                    <div class="section-projects--photos2">
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Estacionamento Antes</h5>
-                                </div>
-                                <img src="assets/images/estacionamento1.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="assets/images/right-arrow.png"  alt="">
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Estacionamento Durante</h5>
-                                </div>
-                                <img src="assets/images/estacionamento2.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="assets/images/right-arrow.png"  alt="">
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Estacionamento Depois</h5>
-                                </div>
-                                <img src="assets/images/estacionamento3.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-projects--tittle">
-                        <h1>Pintura de interiores e exteriores</h1>
-                    </div>
-                    <div class="section-projects--photos3">
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Quadra antes</h5>
-                                </div>
-                                <img src="assets/images/quadra1.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="assets/images/right-arrow.png"  alt="">
-                        </div>
-                        <div class="section-projects--photo">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>Quadra depois</h5>
-                                </div>
-                                <img src="assets/images/quadra2.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>                
+                </div>
             </div>
-
+            <div class="container-tittle--projects">
+                <div class="container-tittle--projects_item">
+                    <h1>Drywall</h1>
+                    <p>Vedação interna em Drywall (gesso acartonado)</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                        <h1>Chapas de gesso</h1>
+                        <p>Executamos paredes dos mais diversos tipos de tipologia.</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Forros</h1>
+                    <p>Forros em Drywall com os mais variados tipos de sancas.</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Elétrica</h1>
+                    <p>Manutenção e instalação elétrica.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">    
+                <div class="row">
+                    <div class="card_img">
+                        <img src="assets/images/hid.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/const.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/terreo.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/floreira.jpg" class="small_img">
+                     </div>
+                </div>
+            </div>
+            <div class="container-tittle--projects">
+                <div class="container-tittle--projects_item">
+                    <h1>Hidráulica</h1>
+                    <p>Manutenção e instalação hidráulica.</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Construções e Reformas</h1>
+                    <p>Temos uma equipe capacitada para atender diversos tipos de obras e reformas</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Impermeabilização</h1>
+                    <p>Impermeabilização de lajes/terraços</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Jardins e floreiras</h1>
+                    <p>Impermeabilização de jardins e floreiras</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">  
+                <div class="row">
+                    <div class="card_img">
+                        <img src="assets/images/caixa-dagua.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/paredeCortina.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/laje-cobertura.jpg" class="small_img">
+                     </div>
+                    <div class="card_img">
+                        <img src="assets/images/piscina.jpg" class="small_img">
+                    </div>
+                </div>
+            </div>
+            <div class="container-tittle--projects">
+                <div class="container-tittle--projects_item">
+                    <h1>Reservatórios de água</h1>
+                    <p>Impermeabilização de caixas d'água e reservatórios.</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Cortinas de concreto em subsolos</h1>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Lajes de cobertura</h1>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Impermeabilização de piscinas</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">  
+                <div class="row">
+                    <div class="card_img">
+                        <img src="assets/images/estacionamento4.jpeg" class="small_img" height="100%">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/revet.jpg" class="small_img">
+                     </div>
+                    <div class="card_img">
+                        <img src="assets/images/restrutural.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/projetos.jpg" class="small_img">
+                    </div>
+                </div>
+            </div>
+            <div class="container-tittle--projects">
+                <div class="container-tittle--projects_item">
+                    <h1>Impermeabilização por injeção</h1>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Troca de Revestimento</h1>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1> Recuperação estrutural</h1>
+                    <p>Recuperamos toda a ferragem degradada pela corrosão que ocorre com o tempo da estrutura do edifício.</p>
+                    </div>
+                    <div class="container-tittle--projects_item">
+                    <h1>Projetos arquitetônicos</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="card_img">
+                        <img src="assets/images/estacionamento1.jpeg" class="small_img" height="100%">
+                    </div>
+                    <div class="arrow">
+                        <img src="assets/images/right-arrow.png" alt="" width="20px">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/estacionamento2.jpeg" class="small_img" height="100%">
+                     </div>
+                     <div class="arrow">
+                        <img src="assets/images/right-arrow.png" alt="" width="20px">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/estacionamento3.jpeg" class="small_img" height="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="container-tittle--projects_sec">
+                <div class="container-tittle--projects_item_sec">
+                    <h1>ANTES</h1>
+                    </div>
+                    <div class="container-tittle--projects_item_sec">
+                    <h1>DURANTE</h1>
+                    </div>
+                    <div class="container-tittle--projects_item_sec">
+                    <h1>DEPOIS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="card_img">
+                        <img src="assets/images/quadra1.jpeg" class="small_img" height="100%">
+                    </div>
+                    <div class="arrow">
+                        <img src="assets/images/right-arrow.png" alt="" width="20px">
+                    </div>
+                    <div class="card_img">
+                        <img src="assets/images/quadra2.jpeg" class="small_img" height="100%">
+                     </div>
+                </div>
+            </div>
+            <div class="container-tittle--projects_sec">
+                <div class="container-tittle--projects_item_sec">
+                    <h1>ANTES</h1>
+                </div>
+                <div class="container-tittle--projects_item_sec">
+                    <h1>DEPOIS</h1>
+                </div>
+            </div>
+            </div>
+            
         </section>
     </main>
     <?php 
     include_once('footer.php');
     ?>
+    <script src="services.js"></script>
 </body>
+
 </html>
