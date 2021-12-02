@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
     <title>Stark Engenharia - Contato</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -18,6 +19,7 @@
                 <a href=""><img src="assets/images/logo.png" alt="Nossa empresa"></a>
             </div>
             <div class="menu">
+                <img src="assets/images/menu.png" alt="" class="menu-opener" width="50ox">
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
@@ -43,11 +45,11 @@
             <div class="section-contact">
                 <div class="section-contact-form">
                     <form action="" method="POST">
-                        <input type="text" name="nome" placeholder="Nome" class="contact-item">
-                        <input type="email" name="email" placeholder="E-mail" class="contact-item">
-                        <input type="number" name="fone" placeholder="Telefone" class="contact-item">
-                        <input type="text" name="endereco" placeholder="Bairro - Cidade" class="contact-item">
-                        <textarea name="message" id="" rows="5" placeholder="Do que precisa?"></textarea>
+                        <input type="text" name="nome" placeholder="Nome" class="contact-item" required>
+                        <input type="email" name="email" placeholder="E-mail" class="contact-item" required>
+                        <input type="number" name="fone" placeholder="Telefone" class="contact-item" required>
+                        <input type="text" name="endereco" placeholder="Bairro - Cidade (opcional)" class="contact-item"> 
+                        <textarea name="message" id="" rows="5" placeholder="Do que precisa?" required></textarea>
                     </form>
                 </div>
             </div>
@@ -81,23 +83,23 @@
                 <div class="section-map--info">
                     <div class="section-map--info-item">
                         <img src="assets/images/arroba.png" alt="">
-                        <span>E-mail </span> : rodrigo@starkeng.com.br
+                        <span>E-mail :</span> rodrigo@starkeng.com.br
                     </div>
                     <div class="section-map--info-item">
                         <img src="assets/images/localizacao.png" alt="">
-                        <span>Endereço </span> : Rua Minas Gerais, 69, Jardim Rosinha CEP: 05274090, São Paulo - SP
+                        <span>Endereço :</span> Rua Minas Gerais, 69, Jardim Rosinha CEP: 05274090, São Paulo - SP
                     </div>
                     <div class="section-map--info-item">
                         <img src="assets/images/phone-call.png" alt="">
-                        <span>Telefone </span> : +55 (11) 3911-2053
+                        <span>Telefone :</span> +55 (11) 3911-2053
                     </div>
                     <div class="section-map--info-item">
                         <img src="assets/images/whatsgray.png" alt="">
-                        <span>Whatapp </span> : +55 (11) 96949-0763
+                        <span>Whatapp :</span> +55 (11) 96949-0763
                     </div>
                     <div class="section-map--info-item">
                         <img src="assets/images/instagram.png" alt="">
-                        <span>Instagram </span> : https://www.instagram.com/stark_engenharia_/
+                        <span>Instagram :</span> www.instagram.com/stark_engenharia_/
                     </div>
                     <div>
 

@@ -1,0 +1,432 @@
+
+::-webkit-scrollbar{
+    background-color: #525252;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: #525252;
+    width: 5px;
+}
+::-webkit-scrollbar-button{
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #999;
+}
+.menu img{
+    display: none;
+}
+.responsive-tittle{
+    display: none;
+}
+.section-service img{
+    display: none;
+}
+/*Criando a responsividade do header, página home e footer*/
+@media (max-width:1120px){
+    .container-tittle--projects,
+    .container-tittle--projects_item,
+    .container-tittle--projects_sec,
+    .container-tittle--projects_item_sec{
+        display: none;
+    }
+    .card_img{
+        width: 560px;
+        height: 360px;
+    }
+    .section-team--item{
+        margin: auto;
+        width: 280px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-team--item img{
+        display: none;
+    }
+    .section-team--item h2{
+        margin-bottom: auto;
+    }
+    .section-team--box2{
+        height: 280px;
+    }
+    .section-team--item2{
+        margin: auto;
+        width: 280px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-team--item2 img{
+        display: none;
+    }
+    .section-team--item2 h1{
+        text-align: center;
+    }    
+    .section-team--item2 h2{
+        margin-bottom: auto;
+    }
+}
+@media (max-width: 1000px){
+    .doters .dot{
+        display: none;
+    }
+    .text{
+        position: static;
+        background-color: #000;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        height: 150px;
+    }
+    .text h1{
+        color: #FFF;
+        font-size: 20px;
+        text-shadow: 0;
+    }
+    .text h2{
+        color: #FFF;
+        font-size: 16px;
+        text-shadow: 0;
+    }
+    .slideshow-container{
+        height: auto;
+    }
+    section .introduction{
+        height: 1000px;
+    }
+}
+@media (min-width:450px) and (max-width:840px){
+    .section-service img{
+        display: block;
+        margin: auto;
+    }
+    .header .logo{
+        margin-left: 20px;
+    }
+    .menu img{
+        display: block;
+    }
+    .menu-opener{
+        margin-right: 20px;
+    }
+    .menu nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 60%;
+        height: auto;
+        top: 80px;
+        right: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a.active{
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        color: #b89845;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 90px;
+        margin-left: 50px;
+        font-size: 20px;
+        border: 0;
+        
+    }
+    .menu li a:hover{
+        color:#b89845;
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .introduction-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .introduction-desc{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .introduction-tittle h1{
+        font-size: 18px;
+    }
+    .introduction-tittle h2{
+        font-size: 15px;
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+    .footer-nav-itens nav{
+        text-align: center;
+    }
+    .footer-nav .contact{
+        margin-top: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .logo-footer {
+        margin-top: 20px;
+    }
+    .section-aboutus{
+        flex-direction: column;
+    }
+    .section-aboutus--left{
+        margin: 10px 40px;
+    }
+    .section-aboutus--right img{
+        display: none;
+    }
+    .companys ,
+    .company{
+        display: none;
+    }
+    .section-services{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-service{
+        width: 60%;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #525252;
+    }
+    .section-service:first-child{
+        border-left: 0;
+    }
+    .section-service:last-child{
+        border-bottom: 0;
+    }
+    .section-contact-form input, 
+    .section-contact-form textarea {
+        width: 300px;
+    }
+    .section-share--legend {
+    margin-right: 20px;
+    }
+    .section-map--info {
+        width: 100%;
+    }
+}
+@media (max-width:580px){
+    .section-service img{
+        display: block;
+        margin: auto;
+    }
+    .section-map--info-item span{
+        display: none;
+    }
+    .section-map--info {
+        width: 100%;
+    }
+    .companys ,
+    .company{
+        display: none;
+    }
+    .section-services{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-service{
+        width: 60%;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #525252;
+    }
+    .section-service:first-child{
+        border-left: 0;
+    }
+    .section-service:last-child{
+        border-bottom: 0;
+    }
+}
+@media (max-width:460px){
+    .section-contact-form input, .section-contact-form textarea {
+        width: 200px;
+        font-size: 10px;
+    }
+    .section-map--info-item {
+        font-size: 10px;
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+    .footer-nav-itens nav{
+        text-align: center;
+    }
+    .footer-nav .contact{
+        margin-top: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .header .logo{
+        margin-left: 20px;
+    }
+    .menu img{
+        display: block;
+    }
+    .menu-opener{
+        margin-right: 20px;
+    }
+    .menu nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 60%;
+        height: auto;
+        top: 80px;
+        right: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a.active{
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        color: #b89845;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 90px;
+        margin-left: 50px;
+        font-size: 20px;
+        border: 0;
+        
+    }
+    .menu li a:hover{
+        color:#b89845;
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .section-aboutus--right img,
+    .section-aboutus--right{
+        display: none;
+    }
+    .section-aboutus--left p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .introduction-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .introduction-desc p {
+        font-size: 13px;
+    }
+    .introduction-desc a img {
+        width: 30px;
+    }
+}
+@media (min-width:350)and (max-width:449px){
+    
+    .header .logo{
+        margin-left: 20px;
+    }
+    .menu img{
+        display: block;
+    }
+    .menu-opener{
+        margin-right: 20px;
+    }
+    .menu nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 60%;
+        height: auto;
+        top: 80px;
+        right: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a.active{
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        color: #b89845;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 90px;
+        margin-left: 50px;
+        font-size: 20px;
+        border: 0;
+        
+    }
+    .menu li a:hover{
+        color:#b89845;
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .introduction-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .introduction-desc{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .introduction-tittle h1{
+        font-size: 18px;
+    }
+    .introduction-tittle h2{
+        font-size: 15px;
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+    .footer-nav-itens nav{
+        text-align: center;
+    }
+    .footer-nav .contact{
+        margin-top: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .logo-footer {
+        margin-top: 20px;
+    }
+    .section-aboutus{
+        flex-direction: column;
+    }
+    .section-aboutus--left{
+        margin: 10px 40px;
+    }
+    .section-aboutus--right img{
+        display: none;
+    }
+    .companys ,
+    .company{
+        display: none;
+    }
+    .section-services{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-service{
+        width: 60%;
+        border-left: 1px solid #333;
+    }
+}

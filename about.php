@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
     <title>Stark Engenharia - Sobre</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -18,6 +19,7 @@
                 <a href=""><img src="assets/images/logo.png" alt="Nossa empresa"></a>
             </div>
             <div class="menu">
+                <img src="assets/images/menu.png" alt="" class="menu-opener" width="50ox">
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
@@ -69,16 +71,19 @@
             <div class="section-body">
                 <div class="section-services">
                     <div class="section-service">
+                        <img src="assets/images/mission.png" alt="" width="100px">
                         <h4>Missão</h4>
                         <p>Valorizar os sonhos dos clientes com os nossos serviços, prezando sempre a qualidade e garantia, cuja a satisfação 
                             dos nossos clientes assegurem a sustentabilidade da nossa empresa.</p>
                     </div>
                     <div class="section-service">
+                        <img src="assets/images/eye.png" alt="" width="100px">
                         <h4>Visão</h4>
                         <p>Ocupar posição de destaque e qualidade na área da construção civil, consolidando sua base no mercado da capital, 
                             interior e litoral Paulista</p>
                     </div>
                     <div class="section-service">
+                        <img src="assets/images/business.png" alt="" width="100px">
                         <h4>Valores</h4>
                         <p>Comprometimento com resultado, ética, justiça, profissionalismo e transparência.</p>
                     </div>

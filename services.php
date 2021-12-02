@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
     <title>Stark Engenharia - Home</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -18,8 +19,8 @@
         </div>
         <span id="bt_close">&times;</span>
         <div class="controls">
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="goPrev()">&#10094;</a>
+            <a class="next" onclick="goNext()">&#10095;</a>
         </div>
     </div>
     <header>
@@ -28,6 +29,7 @@
                 <a href=""><img src="assets/images/logo.png" alt="Nossa empresa"></a>
             </div>
             <div class="menu">
+                <img src="assets/images/menu.png" alt="" class="menu-opener" width="50ox">
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
@@ -54,6 +56,7 @@
             <div class="container">
                 <div class="row">
                     <div class="card_img">
+                        <div class="responsive-tittle"><h1>Drywall</h1></div>
                         <img src="assets/images/service1.jpg" class="small_img">
                     </div>
                     <div class="card_img">
