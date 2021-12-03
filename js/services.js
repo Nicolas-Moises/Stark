@@ -29,3 +29,5 @@ btClose.addEventListener('click', function(){
     modal.classList.toggle('modal_active');
 });
 
+
+

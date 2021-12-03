@@ -29,9 +29,13 @@
                 <a href=""><img src="assets/images/logo.png" alt="Nossa empresa"></a>
             </div>
             <div class="menu">
-                <img src="assets/images/menu.png" alt="" class="menu-opener" width="50ox">
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
                 <nav>
-                    <ul>
+                    <ul class="nav-list">
                         <li><a href="home.php">HOME</a></li>
                         <li><a href="about.php">SOBRE</a></li>
                         <li><a href="services.php" class="active">SERVIÇOS</a></li>
@@ -56,18 +60,25 @@
             <div class="container">
                 <div class="row">
                     <div class="card_img">
-                        <div class="responsive-tittle"><h1>Drywall</h1></div>
                         <img src="assets/images/service1.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Drywall</h1>
+                    <p>Vedação interna em Drywall (gesso acartonado)</p></div>
                     <div class="card_img">
                         <img src="assets/images/drywall02.jpeg" class="small_img">
-                     </div>
+                    </div>
+                    <div class="responsive-tittle"><h1>Chapas de gesso</h1>
+                        <p>Executamos paredes dos mais diversos tipos de tipologia.</p></div>
                     <div class="card_img">
                         <img src="assets/images/forro.jpg" class="small_img" height="100%">
                     </div>
+                    <div class="responsive-tittle"><h1>Forros</h1>
+                    <p>Forros em Drywall com os mais variados tipos de sancas.</p></div>
                     <div class="card_img">
                         <img src="assets/images/eletrica.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Elétrica</h1>
+                    <p>Manutenção e instalação elétrica.</p></div>
                 </div>
             </div>
             <div class="container-tittle--projects">
@@ -95,15 +106,23 @@
                     <div class="card_img">
                         <img src="assets/images/hid.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Hidráulica</h1>
+                    <p>Manutenção e instalação hidráulica.</p></div>
                     <div class="card_img">
                         <img src="assets/images/const.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Construções e Reformas</h1>
+                    <p>Temos uma equipe capacitada para atender diversos tipos de obras e reformas</p></div>
                     <div class="card_img">
                         <img src="assets/images/terreo.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Impermeabilização</h1>
+                    <p>Impermeabilização de lajes/terraços</p></div>
                     <div class="card_img">
                         <img src="assets/images/floreira.jpg" class="small_img">
-                     </div>
+                    </div>
+                    <div class="responsive-tittle"><h1>Jardins e floreiras</h1>
+                    <p>Impermeabilização de jardins e floreiras</p></div>
                 </div>
             </div>
             <div class="container-tittle--projects">
@@ -125,20 +144,25 @@
                     </div>
                 </div>
             </div>
-            <div class="container">  
+            <div class="container">
                 <div class="row">
                     <div class="card_img">
                         <img src="assets/images/caixa-dagua.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Reservatórios de água</h1>
+                    <p>Impermeabilização de caixas d'água e reservatórios.</p></div>
                     <div class="card_img">
                         <img src="assets/images/paredeCortina.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Cortinas de concreto em subsolos</h1></div>
                     <div class="card_img">
                         <img src="assets/images/laje-cobertura.jpg" class="small_img">
                      </div>
+                    <div class="responsive-tittle"><h1>Lajes de cobertura</h1></div>
                     <div class="card_img">
                         <img src="assets/images/piscina.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Impermeabilização de piscinas</h1></div>
                 </div>
             </div>
             <div class="container-tittle--projects">
@@ -162,15 +186,20 @@
                     <div class="card_img">
                         <img src="assets/images/estacionamento4.jpeg" class="small_img" height="100%">
                     </div>
+                    <div class="responsive-tittle"><h1>Impermeabilização por injeção</h1></div>
                     <div class="card_img">
                         <img src="assets/images/revet.jpg" class="small_img">
                      </div>
+                     <div class="responsive-tittle"><h1>Troca de Revestimento</h1></div>
                     <div class="card_img">
                         <img src="assets/images/restrutural.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1> Recuperação estrutural</h1>
+                    <p>Recuperamos toda a ferragem degradada pela corrosão que ocorre com o tempo da estrutura do edifício.</p></div>
                     <div class="card_img">
                         <img src="assets/images/projetos.jpg" class="small_img">
                     </div>
+                    <div class="responsive-tittle"><h1>Projetos arquitetônicos</h1></div>
                 </div>
             </div>
             <div class="container-tittle--projects">
@@ -197,15 +226,18 @@
                     <div class="arrow">
                         <img src="assets/images/right-arrow.png" alt="" width="20px">
                     </div>
+                    <div class="responsive-tittle"><h1>ANTES</h1></div>
                     <div class="card_img">
                         <img src="assets/images/estacionamento2.jpeg" class="small_img" height="100%">
-                     </div>
+                    </div>
                      <div class="arrow">
                         <img src="assets/images/right-arrow.png" alt="" width="20px">
                     </div>
+                    <div class="responsive-tittle"><h1>DURANTE</h1></div>
                     <div class="card_img">
                         <img src="assets/images/estacionamento3.jpeg" class="small_img" height="100%">
                     </div>
+                    <div class="responsive-tittle"><h1>DEPOIS</h1></div>
                 </div>
             </div>
             <div class="container-tittle--projects_sec">
@@ -222,15 +254,19 @@
             </div>
             <div class="container">
                 <div class="row">
+                    
                     <div class="card_img">
                         <img src="assets/images/quadra1.jpeg" class="small_img" height="100%">
                     </div>
+                    <div class="responsive-tittle"><h1>ANTES</h1></div>
                     <div class="arrow">
                         <img src="assets/images/right-arrow.png" alt="" width="20px">
                     </div>
+                    
                     <div class="card_img">
                         <img src="assets/images/quadra2.jpeg" class="small_img" height="100%">
-                     </div>
+                    </div>
+                    <div class="responsive-tittle"><h1>DEPOIS</h1></div>
                 </div>
             </div>
             <div class="container-tittle--projects_sec">
@@ -248,7 +284,8 @@
     <?php 
     include_once('footer.php');
     ?>
-    <script src="services.js"></script>
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/services.js"></script>
 </body>
 
 </html>

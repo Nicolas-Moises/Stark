@@ -18,9 +18,13 @@
             <a href=""><img src="assets/images/logo.png" alt="Nossa empresa"></a>
         </div>
         <div class="menu">
-            <img src="assets/images/menu.png" alt="" class="menu-opener" width="50ox">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
             <nav>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="home.php">HOME</a></li>
                     <li><a href="about.php">SOBRE</a></li>
                     <li><a href="services.php">SERVIÇOS</a></li>
@@ -73,5 +77,6 @@
     <?php 
         include_once('footer.php')
     ?>
+    <script src="js/mobile-navbar.js"></script>
 </body>
 </html>

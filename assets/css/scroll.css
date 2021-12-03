@@ -1,4 +1,7 @@
 
+body{
+    overflow-x: hidden;
+}
 ::-webkit-scrollbar{
     background-color: #525252;
     
@@ -26,6 +29,27 @@
 .section-service img{
     display: none;
 }
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+}
+.menu{
+    align-items: center;
+}
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #b89845;
+    margin: 8px;
+    transition: 0.3s;
+}
 /*Criando a responsividade do header, página home e footer*/
 @media (max-width:1120px){
     .container-tittle--projects,
@@ -34,9 +58,53 @@
     .container-tittle--projects_item_sec{
         display: none;
     }
-    .card_img{
-        width: 560px;
-        height: 360px;
+    .arrow{
+        display: none;
+    }
+    .small_img {
+        width: 100%;
+        max-width: 80vw;
+        cursor: pointer;
+        transition: all linear 0.4s;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card_img {
+        display: flex;
+        height: 200px;
+        overflow: hidden;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+    .responsive-tittle{
+        display: block;
+        width: 500px;
+        border: 1px solid #333;
+        border-radius: 10px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+    }
+    .responsive-tittle h1{
+        font-size: 16px;
+        margin-top: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .responsive-tittle p{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 15px;
     }
     .section-team--item{
         margin: auto;
@@ -103,6 +171,10 @@
     }
 }
 @media (min-width:450px) and (max-width:840px){
+    #modal_img{
+        height: auto;
+        max-width: 90vw;
+    }
     .section-service img{
         display: block;
         margin: auto;
@@ -110,25 +182,58 @@
     .header .logo{
         margin-left: 20px;
     }
-    .menu img{
-        display: block;
-    }
-    .menu-opener{
-        margin-right: 20px;
-    }
-    .menu nav{
-        display: none;
+    .nav-list{
         position: absolute;
         z-index: 99;
-        background-color: rgba(0, 0, 0, 0.9);
-        width: 60%;
-        height: auto;
         top: 80px;
         right: 0;
-    }
-    .menu ul{
+        width: 50vw;
+        height: calc(100vh - 80px);
+        background-color: rgba(0, 0, 0, 0.9);
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
     }
+    .nav-list li{
+        
+        margin-left: 0;
+        opacity: 0;
+    }
+    .nav-list li a{
+        font-size: 12px;
+    }
+    .mobile-menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-list.active {
+        transform: translateX(0);
+      }
+    @keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    }
+    
+    .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2 {
+    opacity: 0;
+    }
+    
+    .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+    }
+
     .menu li a.active{
         border: 0;
         background-color: rgba(0, 0, 0, 0);
@@ -254,6 +359,16 @@
     }
 }
 @media (max-width:460px){
+    #modal_img{
+        height: auto;
+        max-width: 90vw;
+    }
+    .responsive-tittle{
+        width: 80%;
+    }
+    .card_img{
+        width: 80%;
+    }
     .section-contact-form input, .section-contact-form textarea {
         width: 200px;
         font-size: 10px;
@@ -286,7 +401,7 @@
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
-        width: 60%;
+        width: 80vw;
         height: auto;
         top: 80px;
         right: 0;
@@ -301,9 +416,9 @@
     }
     .menu li a{
         font-weight: bold;
-        height: 90px;
-        margin-left: 50px;
-        font-size: 20px;
+        height: 60px;
+        margin-left: 30px;
+        font-size: 17px;
         border: 0;
         
     }
