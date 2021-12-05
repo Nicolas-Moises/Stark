@@ -48,7 +48,7 @@
             
             <div class="section-contact">
                 <div class="section-contact-form">
-                    <form action="" method="POST">
+                    <form action="https://formsubmit.co/nicolas.nicc21@gmail.com" method="POST">
                         <input type="text" name="nome" placeholder="Nome" class="contact-item" required>
                         <input type="email" name="email" placeholder="E-mail" class="contact-item" required>
                         <input type="number" name="fone" placeholder="Telefone" class="contact-item" required>

@@ -95,17 +95,6 @@
             </div>
 
         </section>
-        <section class="company">
-            <div class="companys">
-                <img src="assets/images/mission.png" alt="" width="75px">
-            </div>
-            <div class="companys">
-                <img src="assets/images/eye.png" alt="" width="75px">
-            </div>
-            <div class="companys">
-                <img src="assets/images/business.png" alt="" width="75px">
-            </div>
-        </section>
     </main>
     <?php 
         include_once('footer.php')

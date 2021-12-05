@@ -19,8 +19,8 @@
         </div>
         <span id="bt_close">&times;</span>
         <div class="controls">
-            <a class="prev" onclick="goPrev()">&#10094;</a>
-            <a class="next" onclick="goNext()">&#10095;</a>
+            <a class="prev" id="prev" onclick="goPrev()">&#171;</a>
+            <a class="next" id="next" onclick="goNext()">&#187;</a>
         </div>
     </div>
     <header>
@@ -65,6 +65,7 @@
                     <div class="responsive-tittle"><h1>Drywall</h1>
                     <p>Vedação interna em Drywall (gesso acartonado)</p></div>
                     <div class="card_img">
+                        
                         <img src="assets/images/drywall02.jpeg" class="small_img">
                     </div>
                     <div class="responsive-tittle"><h1>Chapas de gesso</h1>
@@ -218,6 +219,9 @@
                     </div>
                 </div>
             </div>
+            <div class="project-construct">
+                <h1>Cortinas de concreto em subsolos</h1>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="card_img">
@@ -251,6 +255,9 @@
                     <h1>DEPOIS</h1>
                     </div>
                 </div>
+            </div>
+            <div class="project-construct">
+                <h1>Pintura de áreas internas e externas</h1>
             </div>
             <div class="container">
                 <div class="row">
